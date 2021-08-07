@@ -4,18 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cf.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Gallery</title>
 </head>
 <body>
     <h1>Nostalgia Characters</h1>
 
-    <div class="container">
+    <div class="container cf">
 
         <ul class="gallery">
             <li>
-                <img src="img/thumbs/adul.png" alt="Adul">
-                <span>Adul</span>
+                <a href="#chara1">
+                    <img src="img/thumbs/adul.png" alt="Adul">
+                    <span>Adul</span>
+                </a>
+
+                <div class="overlay" id="chara1">
+                    <a href="#" class="close">&nbsp;x&nbsp;</a>
+                    <a href="#chara5" class="previous">previous</a>
+                    <img src="img/full/adul.png" alt="Adul">
+                    <a href="#chara2" class="next">next</a>
+                </div>
             </li>
+
+            <li>
+                <a href="#chara2">
+                    <img src="img/thumbs/ivan.png" alt="Ivan">
+                    <span>Ivan</span>
+                </a>
+
+                <div class="overlay" id="chara2">
+                    <a href="#" class="close">&nbsp;x&nbsp;</a>
+                    <a href="#chara1" class="previous">previous</a>
+                    <img src="img/full/ivan.png" alt="Ivan">
+                    <a href="#chara3" class="next">next</a>
+                </div>
+            </li>
+
+            <li>
+                <a href="#chara3">
+                    <img src="img/thumbs/reza.png" alt="Reza">
+                    <span>Reza</span>
+                </a>
+
+                <div class="overlay" id="chara3">
+                    <a href="#" class="close">&nbsp;x&nbsp;</a>
+                    <a href="#chara2" class="previous">previous</a>
+                    <img src="img/full/reza.png" alt="Reza">
+                    <a href="#chara4" class="next">next</a>
+                </div>
+            </li>
+
+            <li>
+                <a href="#chara4">
+                    <img src="img/thumbs/rin.png" alt="Rin">
+                    <span>Rin</span>
+                </a>
+
+                <div class="overlay" id="chara4">
+                    <a href="#" class="close">&nbsp;x&nbsp;</a>
+                    <a href="#chara3" class="previous">previous</a>
+                    <img src="img/full/rin.png" alt="Rin">
+                    <a href="#chara5" class="next">next</a>
+                </div>
+            </li>
+
+            <li>
+                <a href="#chara5">
+                    <img src="img/thumbs/yunyun.png" alt="Yunyun">
+                    <span>Yunyun</span>
+                </a>
+
+                <div class="overlay" id="chara5">
+                    <a href="#" class="close">&nbsp;x&nbsp;</a>
+                    <a href="#chara4" class="previous">previous</a>
+                    <img src="img/full/yunyun.png" alt="Yunyun">
+                    <a href="#chara1" class="next">next</a>
+                </div>
+            </li>
+
         </ul>
 
     </div>
